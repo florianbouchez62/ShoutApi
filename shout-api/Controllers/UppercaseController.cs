@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClassLibrary1;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,9 +15,10 @@ namespace shout_api.Controllers
     {
         // POST api/<UppercaseController>
         [HttpPost]
-        public Uppercase Post(Uppercase uppercase)
+        public string Post(Word word)
         {
-            return uppercase;
+            Uppercase uppercase = new Uppercase();
+            return uppercase.toUppercase(word.Value);
         }
     }
 }

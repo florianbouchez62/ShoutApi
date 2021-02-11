@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace shout_api
 {
-    public class Uppercase
+    public class Word
     {
-        public string Word { get; set; }
+        public string Value { get; set; }
     }
 }
