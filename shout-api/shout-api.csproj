@@ -6,14 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Lib.Uppercase" Version="1.0.0" />
     <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Lib.Uppercase">
-      <HintPath>..\..\ShoutLibrary\ClassLibrary1\bin\Debug\netstandard2.0\Lib.Uppercase.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
