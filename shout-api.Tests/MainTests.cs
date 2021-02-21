@@ -8,7 +8,7 @@ namespace shout_api.Tests
         [TestMethod]
         public void TestTrueEqualsTrue()
         {
-            Assert.IsTrue(false);
+            Assert.IsTrue(true);
         }
     }
 }
